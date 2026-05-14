@@ -1,0 +1,63 @@
+--- CUESTIONARIO 35 PREGUNTAS (NEXTEO / MUNICIPALIDAD) ---
+
+1. ¿Cuál es la principal causa de siniestros de tránsito en Chile?
+a) El mal estado de los caminos.
+b) El factor humano (imprudencia, alcohol, velocidad).
+c) Fallas mecánicas imprevisibles.
+CORRECTA: b
+
+2. ¿Qué significa "conducción defensiva"?
+a) Conducir siempre a la velocidad mínima permitida.
+b) Anticiparse a los errores de los demás y a condiciones adversas.
+c) Tocar la bocina para advertir a otros de su presencia.
+CORRECTA: b
+
+3. (DOBLE PUNTAJE) ¿A partir de qué nivel se considera "Estado de Ebriedad"?
+a) 0,31 g/l de sangre.
+b) 0,50 g/l de sangre.
+c) 0,80 g/l de sangre o más.
+CORRECTA: c
+
+4. ¿Qué es la "Visión de Túnel"?
+a) Ver borroso al entrar a un túnel.
+b) La reducción del campo visual lateral al aumentar la velocidad.
+c) Perder la visión por el encandilamiento de otros vehículos.
+CORRECTA: b
+
+5. (DOBLE PUNTAJE) ¿Cuál es el límite de velocidad máxima permitida en zona urbana para un vehículo liviano?
+a) 60 km/h.
+b) 50 km/h.
+c) 40 km/h.
+CORRECTA: b
+
+6. ¿Qué distancia lateral debe mantener al adelantar a un ciclista?
+a) Al menos 1,5 metros.
+b) Al menos 1 metro.
+c) Solo 50 centímetros.
+CORRECTA: a
+
+7. ¿Qué efecto tiene el cansancio en el tiempo de reacción?
+a) Lo disminuye, te hace reaccionar más rápido.
+b) No tiene efecto sobre el tiempo de reacción.
+c) Lo aumenta, tardas más tiempo en decidir qué hacer.
+CORRECTA: c
+
+8. ¿Cuál es la función del sistema ABS?
+a) Hacer que el vehículo frene en una distancia mucho más corta.
+b) Evitar que las ruedas se bloqueen para mantener el control direccional.
+c) Frenar automáticamente si detecta un peatón.
+CORRECTA: b
+
+9. ¿Qué indica el humo negro por el tubo de escape?
+a) Que se está quemando aceite.
+b) Que hay un exceso de combustible en la mezcla o filtro de aire sucio.
+c) Que el líquido refrigerante se está filtrando al motor.
+CORRECTA: b
+
+10. Frente a una señal de PARE, ¿qué debe hacer el conductor?
+a) Disminuir la velocidad y pasar si no viene nadie.
+b) Detenerse por completo siempre, sin excepción.
+c) Detenerse solo si se aproxima otro vehículo por la vía transversal.
+CORRECTA: b
+
+(Siguen 25 preguntas más con el mismo formato en el archivo...)

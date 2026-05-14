@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Práctica Licencia Clase B · Chile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="topbar-logo">🚦</div>
+      <div>
+        <h1>Licencia Clase B · Chile</h1>
+        <p>Práctica oficial · 9 unidades · CONASET 2024</p>
+      </div>
+      <div class="topbar-stats" id="topbarStats">
+        <span id="totalQuestions">90 preguntas</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <h2>Unidades</h2>
+        <div id="chapterList" class="chapter-list"></div>
+      </div>
+      <div class="sidebar-section sidebar-actions">
+        <button id="mixMode" class="btn btn-mix">🔀 Modo mixto</button>
+        <button id="showSigns" class="btn btn-signs">🚸 Señaléticas</button>
+        <button id="resetProgress" class="btn btn-reset">↩ Inicio</button>
+      </div>
+    </aside>
+
+    <section class="content">
+
+      <!-- INTRO -->
+      <div class="panel intro" id="introPanel">
+        <div class="intro-hero">
+          <div class="intro-icon">🚗</div>
+          <h2>¡Hola! Prepárate para el examen</h2>
+          <p>Esta app cubre las <strong>9 unidades del libro oficial CONASET 2024</strong>. Practica por unidad o en modo mixto con preguntas aleatorias.</p>
+        </div>
+        <div class="intro-cards">
+          <div class="intro-card">
+            <span>📚</span>
+            <strong>90 preguntas</strong>
+            <small>10 por unidad</small>
+          </div>
+          <div class="intro-card">
+            <span>🚸</span>
+            <strong>15 señales</strong>
+            <small>con imágenes</small>
+          </div>
+          <div class="intro-card">
+            <span>🎯</span>
+            <strong>9 unidades</strong>
+            <small>del libro oficial</small>
+          </div>
+        </div>
+        <p class="intro-tip">👈 Selecciona una unidad en el menú para comenzar</p>
+      </div>
+
+      <!-- QUIZ -->
+      <div class="panel hidden" id="quizPanel">
+        <div class="quiz-head">
+          <div class="quiz-head-left">
+            <span id="modeBadge" class="badge">Unidad</span>
+            <h2 id="quizTitle">Título</h2>
+            <p id="quizMeta" class="quiz-meta">Pregunta 1 de 1</p>
+          </div>
+          <div class="score-box">
+            <span>Aciertos</span>
+            <strong id="scoreValue">0</strong>
+          </div>
+        </div>
+
+        <div class="question-box">
+          <img id="questionImage" class="question-img" src="" alt="Señal de tránsito" style="display:none">
+          <p id="questionText" class="question"></p>
+          <div id="answers" class="answers"></div>
+        </div>
+
+        <div id="feedback" class="feedback hidden"></div>
+
+        <div class="actions">
+          <button id="nextBtn" class="btn btn-next" disabled>Siguiente →</button>
+        </div>
+      </div>
+
+      <!-- SEÑALÉTICAS -->
+      <div class="panel hidden" id="signsPanel">
+        <div class="quiz-head">
+          <div class="quiz-head-left">
+            <span class="badge badge-signs">Señaléticas</span>
+            <h2>Biblioteca visual</h2>
+            <p>Señales reglamentarias, preventivas e informativas del Manual chileno.</p>
+          </div>
+        </div>
+        <div id="signsGrid" class="signs-grid"></div>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
